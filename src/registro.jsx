@@ -17,27 +17,17 @@ function App() {
           <h1>Registrar Usuario Squisita</h1>
           
           <label htmlFor="usuario">Usuario</label>
-          <input 
-            type="text" 
-            id="usuario" 
-            name="usuario" 
-            placeholder="Escribe tu usuario" 
+          <input type="text" id="usuario" name="usuario" placeholder="Escribe tu usuario" 
           />
 
           <label htmlFor="contrasena">Contraseña</label>
           <input 
-            type="password" 
-            id="contrasena" 
-            name="contrasena" 
-            placeholder="Escribe tu contraseña" 
+            type="password" id="contrasena" name="contrasena" placeholder="Escribe tu contraseña" 
           />
 
           <label htmlFor="correo">Correo</label>
           <input 
-            type="text" 
-            id="correo" 
-            name="correo" 
-            placeholder="Escribe tu correo" 
+            type="text" id="correo" name="correo" placeholder="Escribe tu correo" 
           />
 
           <button type="submit">Registrar</button>
