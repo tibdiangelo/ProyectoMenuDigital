@@ -38,4 +38,4 @@ function Registro() {
   );
 }
 
-export default App;
+export default Registro;
