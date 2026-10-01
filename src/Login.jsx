@@ -1,15 +1,15 @@
-import './styles.css';
+import './login.css';
 
-function App() {
+function Login() {
     return (
         <>
             <header>
-                <h1><em>Menu</em></h1>
+                <h1><em>Menú</em></h1>
                 <img src="pizzaloggo.jpeg" alt="logo" className="logo-redondo" />
 
                 <form>
                     <div className="borde-iniciar">
-                        <span><em>iniciar sesion</em></span>
+                        <span><em>Iniciar sesión</em></span>
                     </div>
                     <input type="text" id="username" placeholder="Ingresa tu usuario" />
                     <input type="password" id="password" placeholder="Ingresa tu contraseña" />
