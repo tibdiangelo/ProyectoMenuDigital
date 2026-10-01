@@ -1,18 +1,15 @@
-import React from 'react'
-import 'app.css'
-import registro from "./registro"
+import './App.css'
+import Registro from "./registro"
 import Login from "./Login"
 
-function app (){
-    const [count,setCount]=useState(0)
-    
-    return (
-        <>
-        <div><Registro></Registro></div>
-        <div><Login></Login></div>
-        </>
-    )
-
+function App() {
+  return (
+    <div style={{ padding: '20px', background: '#f0f0f0' }}>
+      
+      <Registro />
+      <Login />
+    </div>
+  )
 }
 
-export default app
+export default App

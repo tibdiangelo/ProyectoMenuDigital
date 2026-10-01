@@ -1,5 +1,5 @@
 import './registro.css'; // O './App.css' dependiendo de cómo nombres tu archivo de estilos
-import pizzaImg from './pizza.png'; // Asegúrate de mover la imagen a la carpeta src o ajustar la ruta
+import pizzaImg from  './assets/pizza.png'; // Asegúrate de mover la imagen a la carpeta src o ajustar la ruta
 
 function App() {
   return (
