@@ -1,7 +1,7 @@
 import './registro.css'; 
-import pizzaImg from './assets/pizza'; 
+import pizzaImg from './assets/pizza.png'; 
 
-function App() {
+function Registro() {
   return (
     <>
       <header>
