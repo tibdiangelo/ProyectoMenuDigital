@@ -1,6 +1,6 @@
-import './login.css';
+import './login.css'
 
-function Login() {
+export default function Login() {
     return (
         <>
             <header>
@@ -57,5 +57,3 @@ function Login() {
     
     );
 }
-
-export default Login;
