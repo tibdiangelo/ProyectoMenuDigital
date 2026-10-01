@@ -8,8 +8,8 @@ function App() {
 
   return (
     <>
-      <Registro></Registro>
-      <Login></Login>
+      <div><Registro></Registro></div>
+      <div><Login></Login></div>
     </>
   )
 }
