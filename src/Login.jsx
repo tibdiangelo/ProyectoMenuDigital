@@ -1,12 +1,13 @@
-import './styles.css';
+import './login.css';
 
-function App() {
+function Login() {
     return (
         <>
             <header>
                 <h1><em>Menu</em></h1>
                 <img src="pizzaloggo.jpeg" alt="logo" className="logo-redondo" />
-
+                </header>
+<main>
                 <form>
                     <div className="borde-iniciar">
                         <span><em>iniciar sesion</em></span>
@@ -15,9 +16,10 @@ function App() {
                     <input type="password" id="password" placeholder="Ingresa tu contraseña" />
                     <button type="submit">entrar</button>
                 </form>
-            </header>
+            
 
-            <main>
+
+            
                 <div className="Menu-categorias">
                     <div className="targeta-categoria">
                         <h2><em>pizzas</em></h2>
@@ -51,8 +53,9 @@ function App() {
                 <h3>Redes Sociales</h3>
                 <h4>Facebook | instagram</h4>
             </footer>
-        </>
+            </>
+    
     );
 }
 
-export default App;
+export default Login;
