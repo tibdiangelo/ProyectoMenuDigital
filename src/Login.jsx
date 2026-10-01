@@ -1,13 +1,18 @@
 import './login.css'
-
+import carro from './assets/carrito.jpeg'
+import pizza from './assets/pizzaimg.jpg'
+import logo from './assets/pizzaloggo.jpeg'
+import pizzaa from './assets/pizza.png'
+import sodas  from './assets/sodas.webp'
+import piizza from './assets/pizzaaaaa.jpg'
 export default function Login() {
-    return (
-        <>
+    return ( 
+    <><img src={piizza} alt="fondo" className='imagen fondo' /><>
             <header>
                 <h1><em>Menu</em></h1>
-                <img src="pizzaloggo.jpeg" alt="logo" className="logo-redondo" />
-                </header>
-<main>
+                <img src={logo} alt="logo" className="logo-redondo" />
+            </header>
+            <main>
                 <form>
                     <div className="borde-iniciar">
                         <span><em>iniciar sesion</em></span>
@@ -16,14 +21,14 @@ export default function Login() {
                     <input type="password" id="password" placeholder="Ingresa tu contraseña" />
                     <button type="submit">entrar</button>
                 </form>
-            
 
 
-            
+
+
                 <div className="Menu-categorias">
                     <div className="targeta-categoria">
                         <h2><em>pizzas</em></h2>
-                        <img src="pizzaimg.jpg" alt="imagenpzz" className="pizza-categoria" />
+                        <img src={pizza} alt="imagenpzz" className="pizza-categoria" />
                         <ul>
                             <li>Hawaiana</li>
                             <li>Peperoni</li>
@@ -34,7 +39,7 @@ export default function Login() {
 
                     <div className="targeta-categoria">
                         <h2><em>Sodas</em></h2>
-                        <img src="sodas.webp" alt="imgsoda" className="soda-categoria" />
+                        <img src={sodas} alt="imgsoda" className="soda-categoria" />
                         <ul>
                             <li>Frutos rojos</li>
                             <li>Maracuyá</li>
@@ -43,7 +48,7 @@ export default function Login() {
                     </div>
 
                     <div className="carrito-icono">
-                        <img src="carrito.jpeg" alt="carrito" style={{ width: '50px', height: '50px' }} />
+                        <img src={carro} alt="carrito" style={{ width: '50px', height: '50px' }} />
                         <span className="Texto-carrito">Ver pedido</span>
                     </div>
                 </div>
@@ -53,7 +58,7 @@ export default function Login() {
                 <h3>Redes Sociales</h3>
                 <h4>Facebook | instagram</h4>
             </footer>
-            </>
+        </></>
     
     );
 }

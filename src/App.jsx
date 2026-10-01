@@ -4,7 +4,7 @@ import Login from "./Login"
 
 function App() {
   return (
-    <div style={{ padding: '20px', background: '#f0f0f0' }}>
+    <div>
       
       <Registro />
       <Login />
