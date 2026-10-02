@@ -7,12 +7,14 @@ import sodas  from './assets/sodas.webp'
 import piizza from './assets/pizzaaaaa.jpg'
 export default function Login() {
     return ( 
-    <><img src={piizza} alt="fondo" className='imagen fondo' /><>
+        
+    <div className="login-container">
             <header>
                 <h1><em>Menu</em></h1>
                 <img src={logo} alt="logo" className="logo-redondo" />
             </header>
             <main>
+                
                 <form>
                     <div className="borde-iniciar">
                         <span><em>iniciar sesion</em></span>
@@ -21,6 +23,8 @@ export default function Login() {
                     <input type="password" id="password" placeholder="Ingresa tu contraseña" />
                     <button type="submit">entrar</button>
                 </form>
+                
+            
 
 
 
@@ -58,7 +62,8 @@ export default function Login() {
                 <h3>Redes Sociales</h3>
                 <h4>Facebook | instagram</h4>
             </footer>
-        </></>
+       
+       </div>
     
     );
 }

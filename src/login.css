@@ -7,7 +7,14 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
  
-
+.login-container {
+  background-image: url('./assets/pizzaaaaa.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+}
 
 body {
     background-image: url('./assets/pizzaaaaa.jpg');
@@ -15,7 +22,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     min-height:100vh;
-    
+    margin: 0;    
 }
 
 header {
