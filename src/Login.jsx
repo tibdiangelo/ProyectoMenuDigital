@@ -5,6 +5,9 @@ import logo from './assets/pizzaloggo.jpeg'
 import pizzaa from './assets/pizza.png'
 import sodas  from './assets/sodas.webp'
 import piizza from './assets/pizzaaaaa.jpg'
+import loggo from './assets/logofacebook.jpg'
+import insta from './assets/instalogo.webp'
+
 export default function Login() {
     return ( 
         
@@ -58,9 +61,12 @@ export default function Login() {
                 </div>
             </main>
 
-            <footer>
-                <h3>Redes Sociales</h3>
-                <h4>Facebook | instagram</h4>
+            <footer className="redes-sociales">
+                <p>Redes Sociales</p>
+                <div className="logo-redes">
+                    <img src={loggo} alt="Facebook" />
+                    <img src={insta} alt="Instagram" />
+                </div>
             </footer>
        
        </div>
