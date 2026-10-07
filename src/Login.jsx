@@ -9,7 +9,7 @@ function Login() {
 
                 <form>
                     <div className="borde-iniciar">
-                        <span><em>iniciar sesion</em></span>
+                        <span><em>Iniciar sesion</em></span>
                     </div>
                     <input type="text" id="username" placeholder="Ingresa tu usuario" />
                     <input type="password" id="password" placeholder="Ingresa tu contraseña" />

@@ -1,17 +1,10 @@
-import { useState } from 'react'
 import './App.css'
 import Registro from "./registro"
 import Login from "./login"
+import { Outlet, NavLink } from 'react-router'
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <div><Registro></Registro></div>
-      <div><Login></Login></div>
-    </>
-  )
+    <div></div>
 }
 
 export default App
